@@ -1,0 +1,20 @@
+# build
+tsconfig.tsbuildinfo
+*.js
+[!_]*.d.ts
+
+# env
+.env*
+!.env*.example
+
+# yarn
+.pnp.cjs
+.pnp.loader.mjs
+yarn.lock
+
+# rust
+/Cargo.lock
+/target
+
+# etc
+node_modules
